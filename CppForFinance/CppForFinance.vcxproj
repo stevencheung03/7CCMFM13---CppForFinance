@@ -20,6 +20,12 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="1 Preliminary Exercises.cpp" />
+    <ClCompile Include="2 Basic Data Types Casting and Operators.cpp" />
+    <ClCompile Include="3 Flow of control and user-defined functions.cpp" />
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="problems.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>

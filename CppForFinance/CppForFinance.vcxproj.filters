@@ -18,5 +18,19 @@
     <ClCompile Include="1 Preliminary Exercises.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="2 Basic Data Types Casting and Operators.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="3 Flow of control and user-defined functions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="problems.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

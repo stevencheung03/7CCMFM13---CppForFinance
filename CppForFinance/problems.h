@@ -21,3 +21,5 @@ int three_problem_2b(unsigned int x, unsigned int n);
 int three_problem_3(unsigned int n);
 int three_problem_4(unsigned int a, unsigned int b);
 int three_problem_5(unsigned int n);
+
+int four_problem_1();

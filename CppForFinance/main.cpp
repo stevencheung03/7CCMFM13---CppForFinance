@@ -3,5 +3,5 @@
 
 int main()
 {
-	std::cout << three_problem_4(2,8);
+	std::cout << two_problem_3();
 }

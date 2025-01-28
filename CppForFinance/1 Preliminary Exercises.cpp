@@ -71,7 +71,7 @@ int one_problem_6()
 	std::cout << "Type in a number: ";
 	std::cin >> a;
 
-	std::cout << abs(a) << std::endl;
+	std::cout << std::abs(a) << std::endl;
 
 	return 0;
 }

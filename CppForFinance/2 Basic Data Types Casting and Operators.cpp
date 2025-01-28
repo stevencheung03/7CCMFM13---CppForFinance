@@ -29,6 +29,26 @@ int two_problem_2()
 
 int two_problem_3()
 {
+  	char a;
+    std::cout << "Enter a character: ";
+    std::cin >> a;
+    if (std::isalpha(static_cast<unsigned char>(a)))
+    {
+      	if (std::islower(a))
+        {
+          	int b = int(a)-32;
+      		std::cout << a << "The upper case character corresponding to" << a << "is " << b << std::endl;
+        }
+    	else if (std::isupper(a))
+    	{
+    		int b = int(a)+32;
+    		std::cout << a << "The lower case character corresponding to" << a << "is " << b << std::endl;
+    	}
+        else
+        {
+        	std::cout << a << "is not a letter" << std::endl;
+       	}
+    }
 	return 0;
 }
 
@@ -59,7 +79,7 @@ int two_problem_5()
 
 	diff = player1 - player2;
 
-	if (player1 = player2)
+	if (player1 == player2)
 	{
 		std::cout << "Its a draw \n";
 	}

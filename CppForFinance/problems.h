@@ -23,3 +23,6 @@ int three_problem_4(unsigned int a, unsigned int b);
 int three_problem_5(unsigned int n);
 
 int four_problem_1();
+int four_problem_2();
+int four_problem_3();
+int four_problem_4();
